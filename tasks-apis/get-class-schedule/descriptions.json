@@ -1,0 +1,33 @@
+{
+    "lesson_id": "An ID that determines which lessons are scheduled for that day. It may vary due to certain factors. If today has no lesson id, no activities.",
+    "times": {
+        "types": ["normal", "uncle_day"],
+        "normal": {
+            "description": "Default day schedule: each lesson is 55 minutes. First activity runs from 8:00 AM to 8:30 AM.",
+            "condition": "Used on any day that is NOT designated as an uncle day.",
+            "lunch_after_lesson": 4
+        },
+        "uncle_day": {
+            "description": "Special schedule: each lesson is 35 minutes. First activity runs from 8:00 AM to 8:25 AM, with two recesses and one lunch break.",
+            "condition": "Used if today is Friday OR the schedule explicitly designates it as an uncle day.",
+            "lunch_after_lesson": 6
+        }
+    },
+    "morning_assembly": {
+        "types": ["class_teacher_time", "junior_morning_assembly", "senior_morning_assembly"],
+        "tags": ["first activity of the schedule"],
+        "class_teacher_time": "Default morning activity.",
+        "junior_morning_assembly": "Occurs on Tuesday.",
+        "senior_morning_assembly": "Occurs on Thursday."
+    },
+    "break": {
+        "description": "Refers to recess or lunch time. Usually after two lessons.",
+        "recess_duration": "15 minutes",
+        "lunch_duration": "1 hour and 10 minutes"
+    },
+    "rollcall": "Activity after lunch time, lasting 5 minutes.",
+    "reinforcement": "The last activity of the schedule on a normal day, lasting 30 minutes.",
+    "life_education": {
+        "description": "A 2 hours and 5 minutes activity on uncle day, scheduled as the last activity."
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "rules":[
+        "These analytics data will be sent to human",
+        "Keep analytics clean and straight-forward",
+        "If the information of code or the code linked to files from other sources, set state as unknown",
+        "You can leave blanks."
+    ]
+}

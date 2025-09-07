@@ -1,0 +1,18 @@
+{
+    "date":"",
+    "weekday":"",
+    "language":"",
+    "lesson_id":"",
+    "time_table":[
+        {
+            "time_range":{
+                "start":"",
+                "end":""
+            },
+            "activity":"",
+            "activity_data":{
+                "teacher":"(optional)"
+            }
+        }
+    ]
+}
